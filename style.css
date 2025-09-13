@@ -289,7 +289,8 @@ position: relative;
   background-color: #fff1cb;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  justify-content: center;
+  padding-block: 2rem;
   gap: 1rem;
   z-index: 10000; /* above mobile menu */
   transition: right 0.3s ease-in-out;
@@ -305,6 +306,7 @@ inset: 0 0 0 auto;
 .cart-tab .h4{
 font-size: 2rem;
 margin-top: -1rem;
+text-align: center;
 }
 .cart-list{
 width: 100%;
@@ -318,15 +320,22 @@ overflow-y: auto;
   align-items: center;
   padding-inline: 1rem;
   gap: 1rem;
-  flex: 1;
+  /* flex: 1; */
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 .burger{
-  flex: 3;
+  flex: 2;
 }
 
  .cart-list .item:nth-child(even){
   background: var(--body-color);
+}
+
+.item .image-containerr{
+  flex: 1;
 }
 .item .image-containerr img{
   width: 5rem;
@@ -382,6 +391,8 @@ white-space: nowrap;
 .button-container{
   display: flex;
   gap: 0.7rem;
+  justify-content: center;
+  
 }
 .item-total{
   font-size: larger;
