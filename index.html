@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="hamburger">
+            <div><a href="#" class="logo">Foodie </a></div>
+            <!-- Desktop view -->
+            <div>
+                <ul class="lists-items ">
+                    <li><a href="#" class="item">Menu</a> </li>
+                    <li><a href="#" class="item">Services</a> </li>
+                    <li><a href="#" class="item">Contact</a> </li>
+                    <li><a href="#" class="item">Special</a> </li>
+                    <li><a href="#" class="item">Mail</a> </li>
+
+
+
+                </ul>
+            </div>
+            <div class="desktop-action">
+
+                <div class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div class="cart-circle">
+                        <span class="cart-value">0</span>
+                    </div>
+                </div>
+                <div class="sigh-inn">
+                    <a href="#" class="sigh-in">Sigh in &nbsp;
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <a href="#" class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <!-- mobile-view -->
+    <div class="overlay"></div>
+    <ul class=" mobile-view">
+        <li><a href="#" class="item">Menu </a> </li>
+        <li><a href="#" class="item">Menu </a> </li>
+        <li><a href="#" class="item">Menu </a> </li>
+        <li><a href="#" class="item">Menu </a> </li>
+        <li><a href="#" class="item">Menu </a> </li>
+
+        <li> <a href="#">
+                <div class="mobile-action">
+
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="cart-circle">
+                            <span class="cart-value">0</span>
+                        </div>
+                    </div>
+                    <div class="sigh-in">
+                        <a href="#" class="sigh-in">Sigh in &nbsp;
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        </a>
+                    </div>
+                </div>
+            </a></li>
+
+    </ul>
+    <main>
+
+        <section class="section-1">
+            <div class="content">
+                <h1> Enjoy Your Delicious <span>Food</span> </h1>
+                <!-- <h1>Delicious <span>Food</span></h1> -->
+                <p>We will fill yiur your tummy with delicious food and fast delivery</p>
+                <div class="buttons">
+                    <a href="#" class="sigh-in order-now"> Order now</a>
+                    <div class="social-logo">
+                        <a href="#" class="social-icons"> <i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-icons"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-icons"> <i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="#" class="social-icons"> <i class="fa-brands fa-google"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="image-container">
+                <img src="images/delivery-boy.png" alt="">
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="text">
+                <h5>Our Services</h5>
+                <h2> How does it work?</h2>
+            </div>
+            <div class="images">
+                <div class="image">
+                    <img src="images/easy-to-order.png" alt="">
+
+                    <h3> Easy to order</h3>
+                    <p> You are few steps away from ordering food</p>
+                </div>
+                <div class="image">
+                    <img src="images/fast-delivery.png" alt="">
+
+                    <h3> Easy to order</h3>
+                    <p> You are few steps away from ordering food</p>
+                </div>
+                <div class="image">
+                    <img src="images/best-quality.png" alt="">
+
+                    <h3> Easy to order</h3>
+                    <p> You are few steps away from ordering food</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="text">
+                <h5>Our Menu</h5>
+                <h2> The Most Popular</h2>
+            </div>
+            <div class="card-container">
+
+                <!-- <div class="card">
+                    <div class="card-img">
+                        <img src="images/burger.png" alt="">
+                    </div>
+                    <h3> Double Cheese Burger</h3>
+                    <p> 9.5$</p>
+                    <a href="#" class="sigh-in card-btn">Add to cart</a>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/pizza.png" alt="">
+                    </div>
+                    <h3> Double Cheese Burger</h3>
+                    <p> 9.5$</p>
+                    <a href="#" class="sigh-in card-btn">Add to cart</a>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/fried-chicken.png" alt="">
+                    </div>
+                    <h3> Double Cheese Burger</h3>
+                    <p> 9.5$</p>
+                    <a href="#" class="sigh-in card-btn ">Add to cart</a>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/chicken-roll.png" alt="">
+                    </div>
+                    <h3> Double Cheese Burger</h3>
+                    <p> 9.5$</p>
+                    <a href="#" class="sigh-in card-btn">Add to cart</a>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/lasagna.png" alt="">
+                    </div>
+                    <h3> Double Cheese Burger</h3>
+                    <p> 9.5$</p>
+                    <a href="#" class="sigh-in card-btn">Add to cart</a>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/sandwich.png" alt="">
+                    </div>
+                    <h3> Double Cheese Burger</h3>
+                    <p> 9.5$</p>
+                    <a href="#" class="sigh-in card-btn">Add to cart</a>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/spaghetti.png" alt="">
+                    </div>
+                    <h3> Double Cheese Burger</h3>
+                    <p> 9.5$</p>
+                    <a href="#" class="sigh-in card-btn">Add to cart</a>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/fried-chicken.png" alt="">
+                    </div>
+                    <h3> Double Cheese Burger</h3>
+                    <p> 9.5$</p>
+                    <a href="#" class="sigh-in card-btn">Add to cart</a>
+                </div> -->
+                <!-- CART TAB -->
+                <div class="cart-tab">
+                    <h4 class="h4">Your Cart</h4>
+                    <div class="cart-list">
+                       <!-- <div class="item">
+
+                        <div class="image-containerr">
+                            <img src="images/burger.png" >
+                        </div>
+                        <div class="burger">
+                            <h4>Burger Burger Burger</h4>
+                            <div class="item-total">$200</div>
+                        </div>
+                        <div class="item-pl-mi">
+                            <a href="#" class="quantity-button"><i class="fa-solid fa-minus"></i></a>
+                            <h4 class="quantity-value"> 1</h4>
+                            <a href="#" class="quantity-button"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                        
+                       </div> -->
+                    </div>
+                    <div class="total">
+                     <h4>Total:</h4>
+                     <h4 class="cart-total">$0.0</h4>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="sigh-in close-btn"> Close </a>
+                        <a href="#" class="sigh-in"> Check Out</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="last-img">
+                <img src="images/delivery-boy-with-phone.png">
+            </div>
+            <div class="content">
+                <h5>Our Reviews </h5>
+                <h2> What they say?</h2>
+                <div class="review-container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="profile-0">
+                                    <div class="profile">
+                                        <img src="images/profile1.jpeg" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <h5>Hawkings</h5>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quod totam
+                                    provident dolorem voluptate, laborum aspernatur doloribus harum nisi voluptatum
+                                    esse? Voluptatum id ratione quaerat odio voluptatem magni cupiditate veniam!</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="profile-0">
+                                    <div class="profile">
+                                        <img src="images/profile2.jpeg" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <h5>Sophia</h5>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quod totam
+                                    provident dolorem voluptate, laborum aspernatur doloribus harum nisi voluptatum
+                                    esse? Voluptatum id ratione quaerat odio voluptatem magni cupiditate veniam!</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="profile-0">
+                                    <div class="profile">
+                                        <img src="images/profile3.jpeg" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <h5>Lucy</h5>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quod totam
+                                    provident dolorem voluptate, laborum aspernatur doloribus harum nisi voluptatum
+                                    esse? Voluptatum id ratione quaerat odio voluptatem magni cupiditate veniam!</p>
+                            </div>
+                        </div>
+                        <div class="arrow-container">
+                            <a href="#" class="arrrow" id="prev">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </a>
+                            <a href="#" class="arrrow" id="next">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section-5">
+            <div class="app-image">
+                <img src="images/mobile-app.png">
+            </div>
+            <div class="app-content">
+                <h5>Our app</h5>
+                <h2> Appilmcd</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. P eligendi debitis esse ratione aliquam
+                    cumque perferendis. Blanditiis, quae architecto?
+                </p>
+                <a href="#" class="sigh-in book-now-btn"> Book now</a>
+            </div>
+        </section>
+    </main>
+</body>
